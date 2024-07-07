@@ -1,0 +1,5 @@
+replicaCount: 1
+image:
+  repository: dockersamples/examplevotingapp_worker
+  tag: latest
+  pullPolicy: IfNotPresent
